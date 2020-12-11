@@ -1,0 +1,25 @@
+.Footer {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 12px 48px;
+    box-sizing: border-box;
+    background-color: #545454;
+    box-shadow: inset 8px 8px 12px #474747, 
+    -8px -8px -12px #616161;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.FooterDescription {
+    font-weight: 500;
+    color: #ccc;
+}
+
+.Creator {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-style: italic;
+}

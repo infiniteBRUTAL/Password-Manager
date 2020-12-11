@@ -1,0 +1,80 @@
+.MainContainer {
+    width: 100%;
+    height: 90vh;
+    padding: 24px;
+    box-sizing: border-box;
+    background: #ff401f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.MainTitle {
+    font-size: 48px;
+    display: inline-block;
+    transform: skew(-12deg);
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.WelcomeText {
+    font-weight: 600;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.WelcomeText > b {
+    font-size: 18px;
+}
+
+.LoginBtn {
+    display: none;
+}
+
+.ActiveBtn {
+    color: red;
+}
+
+.ButtonContainer {
+    margin: 0 auto;
+    width: 90%;
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.BtnContainer {
+    outline: none;
+    border: 1px solid #fff;
+    width: 100%;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.25),
+    8px 8px 12px rgba(255, 255, 255, 0.3);
+    font-size: 1rem;
+    transition: all 0.3s ease 0s;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.BtnContainer:hover {
+    box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.5),
+    inset 1px 1px 4px rgba(0, 0, 0, 0.35);
+    transition: all 1s ease 0s;
+}
+
+.User {
+    text-transform: uppercase;
+    transform: skewX(12deg);
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.InActive {
+    display: none;
+}
